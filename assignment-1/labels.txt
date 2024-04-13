@@ -1,0 +1,10 @@
+]
+[
+geq
++
+alpha
+neq
+tan
+(
+div
+cos
