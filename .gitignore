@@ -164,3 +164,5 @@ assignment-2/logs/*
 *.zip
 *.sqlite
 *.keras
+
+assignment-2/ckp_weights/*
