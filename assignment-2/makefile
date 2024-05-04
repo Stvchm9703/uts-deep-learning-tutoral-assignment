@@ -13,3 +13,8 @@ run-img-clf:
 	fi;\
 	 python -m jupyter nbconvert image-classification.ipynb --to notebook --execute; \
 
+run-obj-dtt:
+	if test -f object-detection.nbconvert.ipynb; then \
+		cp object-detection.nbconvert.ipynb backup/object-detection.nbconvert-$(shell date --iso=seconds).ipynb_bakcup;\
+	fi;\
+	 python -m jupyter nbconvert object-detection.ipynb --to notebook --execute; \
