@@ -166,3 +166,6 @@ assignment-2/logs/*
 *.keras
 
 assignment-2/ckp_weights/*
+
+assignment-2/detectron2
+assignment-2/mmdetection
